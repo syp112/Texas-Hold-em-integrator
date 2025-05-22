@@ -374,6 +374,7 @@ void listSaveFiles(std::vector<std::string> &saveFiles)
 
 int main()
 {
+	std::cout << "Welcome to use syp's Texas-Hold-em-integrator.\nVisit https://www.luogu.com.cn/article/op673hwg to obtain the latest version.\nIf you encounter any problems, send an email to 3336088317@qq.com.\n------------------------------------------------------------------------\n";
 	std::cout << "Welcome to Texas!\n";
 
 	std::vector<std::string> saveFiles;
