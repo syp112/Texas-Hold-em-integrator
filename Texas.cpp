@@ -565,7 +565,7 @@ int main()
 			}
 			scorekeeper.adjustPot(amount, false);
 		}
-		else if (command.substr(0, 1) == "w")
+		else if (command.substr(0, 1) == "w" || command.substr(0, 3) == "win")
 		{
 			std::string playerIndices = command.substr(2);
 			scorekeeper.win(scorekeeper.parsePlayerIndices(playerIndices));
